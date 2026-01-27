@@ -1,25 +1,25 @@
 # PS2 BlueLink 🔵🔗
 
-**PS2 BlueLink** is a desktop utility written in Python designed to streamline the transfer of game files (ISOs and archives) to USB storage for PlayStation 2, specifically optimized for **OPL (Open PS2 Loader)**.
+**PS2 BlueLink** is a lightweight desktop utility designed to automate the preparation of USB drives for PlayStation 2 (OPL). It handles the "boring stuff" like finding Game IDs and extracting compressed archives so you can just plug and play.
 
-The tool automates extraction, handles correct naming conventions using Game IDs, and organizes files into the appropriate directory structure.
+## 📥 Download
+You can find the latest standalone version in the **[Releases](link-alla-tua-release-qui)** section. No installation required!
 
-## ✨ Features
-* **Automatic Game ID Detection:** Scans ISO files to extract the serial code (e.g., `SLES_543.21`) and renames the file for OPL compatibility.
-* **Multi-Format Support:** Directly handles `.iso`, `.zip`, `.7z`, and `.rar` files.
-* **Smart Skip:** Automatically skips files already present on the USB drive if the file size matches, saving time on slow transfers.
-* **Modern GUI:** A clean, dark-mode interface powered by `CustomTkinter`.
-* **Real-Time Stats:** Monitor transfer speed (MB/s) and estimated time remaining (ETA).
-* **USB Management:** Automatically detects removable drives and sets up the required `DVD` folder.
+## ✨ Key Features
+* **Smart Renaming:** Automatically finds the Game ID (e.g. `SLUS_211.94`) and renames the ISO for OPL.
+* **Archive Ready:** Supports `.zip`, `.7z`, and `.rar` – it extracts the ISO and copies it in one go.
+* **Fast & Safe:** Includes a "Smart Skip" feature that detects if a game is already on the USB to avoid redundant copies.
+* **Visual Progress:** Real-time speed monitor and ETA.
 
-## 🚀 Getting Started
+## 🛠️ Requirements
+* **Windows 10/11**
+* For `.rar` support, ensure you have **WinRAR** or **7-Zip** installed on your system.
 
-### Prerequisites
-* Python 3.9 or higher.
-* `unrar` (required for `.rar` support via the `rarfile` library).
+## 📖 Quick Start
+1. Run `PS2BlueLink.exe`.
+2. Select your folder with games and your USB drive.
+3. Click **START TRANSFER** and wait for the "Operation Finished" message.
+4. Your USB is now ready for your PS2!
 
-### Installation
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/ps2-bluelink.git](https://github.com/your-username/ps2-bluelink.git)
-   cd ps2-bluelink
+## ⚠️ Note
+This repository contains the compiled binary for ease of use. If you encounter any issues, please open an Issue.
