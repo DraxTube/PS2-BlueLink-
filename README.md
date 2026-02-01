@@ -3,7 +3,7 @@
 **PS2 BlueLink** is a lightweight desktop utility designed to automate the preparation of USB drives for PlayStation 2 (OPL). It handles the "boring stuff" like finding Game IDs and extracting compressed archives so you can just plug and play.
 
 ## 📥 Download
-You can find the latest standalone version in the **[Releases](link-alla-tua-release-qui)** section. No installation required!
+You can find the latest standalone version in the **[Releases](https://github.com/DraxTube/PS2-BlueLink-/releases)** section. No installation required!
 
 ## ✨ Key Features
 * **Smart Renaming:** Automatically finds the Game ID (e.g. `SLUS_211.94`) and renames the ISO for OPL.
